@@ -195,4 +195,6 @@ public partial class ISpanDemoContext : DbContext
 public DbSet<WebApplication2.ViewModels.UserItemViewModel> UserItemViewModel { get; set; } = default!;
 
 public DbSet<WebApplication2.ViewModels.UserCreateViewModel> UserCreateViewModel { get; set; } = default!;
+
+public DbSet<WebApplication2.ViewModels.UserUpdateViewModel> UserUpdateViewModel { get; set; } = default!;
 }
